@@ -7,3 +7,4 @@
 # Note: Lines starting with a hashtag ('#') or a forward slash ('/') are ignored.
 
 "Shadow" = 0x56 : 0x21
+"Sonic" = 0x3F : 0x21

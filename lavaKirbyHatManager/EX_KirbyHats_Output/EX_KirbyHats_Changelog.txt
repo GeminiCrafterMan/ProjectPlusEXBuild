@@ -2,6 +2,7 @@ lavaKirbyHatManager v0.8.5 Changelog
 
 Loading Hat Entries...
 [LOADED] "Shadow" (Fighter ID 0x0056, Source ID 0x0021)
+[LOADED] "Sonic" (Fighter ID 0x003F, Source ID 0x0021)
 
 Adding Hats...
 "Shadow" ID: 0x0056, Source Character ID: 0x0021 (LUCARIO)
@@ -11,6 +12,13 @@ Adding Hats...
 	Editing REL...
 		[SUCCESS] Wrote Hat Transactor (0x48000001 907F0158) to 0x0108 of Section[4].
 		[SUCCESS] Wrote Hat Command (0x0002060C) to 0x0004AF38.
+"Sonic" ID: 0x003F, Source Character ID: 0x0021 (LUCARIO)
+	Editing KBX...
+		[SUCCESS] Wrote Hat Action (0x000001AA) to 0x08FC.
+		[SUCCESS] Wrote Hat Subaction (0x00000068 00000001 000002F0 00000000) to 0x03F0.
+	Editing REL...
+		[SUCCESS] Wrote Hat Transactor (0x48000001 907F00FC) to 0x0110 of Section[4].
+		[SUCCESS] Wrote Hat Command (0x0002060C) to 0x0004AF40.
 
 Note: Backed up ".././pf/module/ft_kirby.rel" and overwrote it with the newly edited REL.
 Note: Backed up ".././pf/BrawlEx/KirbyHat.kbx" and overwrote it with the newly edited KBX.
@@ -167,6 +175,11 @@ Hat Summary:
 --------[ID 0x0031] Name: WARIOMAN-------------------------------------------
 		Action Value:		0x014B
 		Subaction Vals:		0x00000000 00000000 0000023D 00000000
+--------[ID 0x003F] Name: Sonic----------------------------------------------
+		Action Value:		0x01AA
+		Subaction Vals:		0x00000068 00000001 000002F0 00000000
+		Transactor Entry:	0x48000001 907F00FC
+		Command Entry:		0x00080A01 0002060C
 --------[ID 0x0040] Name: UNRECOGNIZED---------------------------------------
 		Action Value:		0x01AE
 		Subaction Vals:		0x0000000C 00000001 000002F8 00000000

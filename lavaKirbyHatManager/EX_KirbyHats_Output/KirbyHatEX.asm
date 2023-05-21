@@ -66,6 +66,7 @@ HOOK @ $80A1A5B0
 	%HatFloatFix(0x40, 0x03)	#Dark Samus/Samus
 	%HatFloatFix(0x6A, 0x09)	#Red Alloy/Captain Falcon
 	%HatFloatFix(0x56, 0x21)	#Shadow/LUCARIO
+	%HatFloatFix(0x3F, 0x21)	#Sonic/LUCARIO
 	mulli r0, r4, 0xDC
 }
 

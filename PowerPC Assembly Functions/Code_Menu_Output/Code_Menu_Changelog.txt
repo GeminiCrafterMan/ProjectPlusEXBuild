@@ -7,6 +7,7 @@ Note: This code menu was configured for use with Dolphin only, and IS NOT COMPAT
 
 Adding Characters to Code Menu from "EX_Characters.txt"...
 [ADDED] Shadow (Slot ID = 0x56)
+[CHANGED] Sonic (Slot ID = 0x3F)
 
 Final Character List:
 	Bowser (Slot ID = 0x0C)
@@ -46,7 +47,7 @@ Final Character List:
 	Shadow (Slot ID = 0x56)
 	Sheik (Slot ID = 0x0F)
 	Snake (Slot ID = 0x2A)
-	Sonic (Slot ID = 0x2B)
+	Sonic (Slot ID = 0x3F)
 	Sopo (Slot ID = 0x11)
 	Squirtle (Slot ID = 0x20)
 	Toon Link (Slot ID = 0x28)

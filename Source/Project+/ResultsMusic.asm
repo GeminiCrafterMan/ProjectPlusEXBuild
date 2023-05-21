@@ -40,7 +40,7 @@ ClassicResultsTable:
 		0x0000, 0x0000, 0x2788, 0xF000, | # Yellow Alloy, Green Alloy, Roy ("MarioD"), Mewtwo ("BossPackun")
 		0x0000, 0xF001, 0x0000, 0x0000,	| # "Rayquaza", Knuckles ("PorkyStatue"), "Porky", "HeadRobo"
 		0x2749, 0x2727, 0x0000, 0x0000, | # Ridley ("Ridley"), Waluigi ("Duon"), "MetaRidley", "Taboo"
-		0x0000, 0x0000, 0x0000, 0x0000, | # "MasterHand", "CrazyHand", "None", "FighterEX3F"
+		0x0000, 0x0000, 0x0000, 0x27FE, | # "MasterHand", "CrazyHand", "None", "FighterEX3F"
 		0xF002, 0x0000, 0x0000, 0x0000, | # Dark Samus ("FighterEX40"), "FighterEX41", "FighterEX42", "FighterEX43"
 		0x0000, 0x0000, 0x0000, 0x0000, | # "FighterEX44", "FighterEX45", "FighterEX46", "FighterEX47"
 		0x0000, 0x0000, 0x0000, 0x0000, | # "FighterEX48", "FighterEX49", "FighterEX4A", "FighterEX4B"

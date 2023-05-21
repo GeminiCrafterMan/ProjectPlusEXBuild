@@ -2,3 +2,4 @@
 #	"Character Name" = ID
 #See README.md for further details.
 "Shadow" = 0x56
+"Sonic" = 0x3F
