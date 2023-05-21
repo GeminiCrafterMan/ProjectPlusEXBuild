@@ -1,0 +1,4 @@
+#Add new lines in the following format:
+#	"Character Name" = ID
+#See README.md for further details.
+"Shadow" = 0x56

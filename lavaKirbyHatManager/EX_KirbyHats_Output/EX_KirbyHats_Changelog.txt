@@ -1,0 +1,183 @@
+lavaKirbyHatManager v0.8.5 Changelog
+
+Loading Hat Entries...
+[LOADED] "Shadow" (Fighter ID 0x0056, Source ID 0x0021)
+
+Adding Hats...
+"Shadow" ID: 0x0056, Source Character ID: 0x0021 (LUCARIO)
+	Editing KBX...
+		[SUCCESS] Wrote Hat Action (0x000001AA) to 0x0958.
+		[SUCCESS] Wrote Hat Subaction (0x00000068 00000001 000002F0 00000000) to 0x0560.
+	Editing REL...
+		[SUCCESS] Wrote Hat Transactor (0x48000001 907F0158) to 0x0108 of Section[4].
+		[SUCCESS] Wrote Hat Command (0x0002060C) to 0x0004AF38.
+
+Note: Backed up ".././pf/module/ft_kirby.rel" and overwrote it with the newly edited REL.
+Note: Backed up ".././pf/BrawlEx/KirbyHat.kbx" and overwrote it with the newly edited KBX.
+Note: Backed up ".././Source/P+Ex/KirbyHatEX.asm" and overwrote it with the newly edited ASM.
+
+Hat Summary:
+--------[ID 0x0000] Name: MARIO----------------------------------------------
+		Action Value:		0x0140
+		Subaction Vals:		0x00000004 00000001 0000023B 00000000
+--------[ID 0x0001] Name: DONKEY---------------------------------------------
+		Action Value:		0x0177
+		Subaction Vals:		0x00000000 00000000 00000286 01000000
+--------[ID 0x0002] Name: LINK-----------------------------------------------
+		Action Value:		0x01A8
+		Subaction Vals:		0x00000008 00000002 000002E4 00000000
+--------[ID 0x0003] Name: SAMUS----------------------------------------------
+		Action Value:		0x01AE
+		Subaction Vals:		0x0000000C 00000001 000002F8 00000000
+--------[ID 0x0004] Name: YOSHI----------------------------------------------
+		Action Value:		0x0159
+		Subaction Vals:		0x00000010 00000001 00000259 00000000
+--------[ID 0x0005] Name: KIRBY----------------------------------------------
+		Action Value:		0xFFFFFFFF
+		Subaction Vals:		0x00000000 00000000 00000330 00000000
+--------[ID 0x0006] Name: FOX------------------------------------------------
+		Action Value:		0x0141
+		Subaction Vals:		0x00000014 00000002 00000219 00000000
+--------[ID 0x0007] Name: PIKACHU--------------------------------------------
+		Action Value:		0x0135
+		Subaction Vals:		0x00000018 00000002 0000020A 00000000
+--------[ID 0x0008] Name: LUIGI----------------------------------------------
+		Action Value:		0x017B
+		Subaction Vals:		0x0000001C 00000001 00000290 00000000
+--------[ID 0x0009] Name: CAPTAIN--------------------------------------------
+		Action Value:		0x0133
+		Subaction Vals:		0x00000000 00000000 00000206 00000000
+--------[ID 0x000A] Name: NESS-----------------------------------------------
+		Action Value:		0x0173
+		Subaction Vals:		0x00000020 00000001 0000027E 00000000
+--------[ID 0x000B] Name: KOOPA----------------------------------------------
+		Action Value:		0x01B5
+		Subaction Vals:		0x00000024 00000001 000002FE 00000000
+--------[ID 0x000C] Name: PEACH----------------------------------------------
+		Action Value:		0x0156
+		Subaction Vals:		0x00000028 00000001 00000253 00000000
+--------[ID 0x000D] Name: ZELDA----------------------------------------------
+		Action Value:		0x016A
+		Subaction Vals:		0x00000000 00000000 0000026C 00000000
+--------[ID 0x000E] Name: SHEIK----------------------------------------------
+		Action Value:		0x016B
+		Subaction Vals:		0x0000002C 00000002 0000026E 00000000
+--------[ID 0x000F] Name: POPO-----------------------------------------------
+		Action Value:		0x0158
+		Subaction Vals:		0x00000030 00000002 00000257 00000000
+--------[ID 0x0011] Name: MARTH----------------------------------------------
+		Action Value:		0x0180
+		Subaction Vals:		0x00000034 00000001 0000029A 00000000
+--------[ID 0x0012] Name: GAMEWATCH------------------------------------------
+		Action Value:		0x01BB
+		Subaction Vals:		0x00000038 00000002 00000314 01000000
+--------[ID 0x0013] Name: FALCO----------------------------------------------
+		Action Value:		0x0142
+		Subaction Vals:		0x0000003C 00000002 0000021F 01000000
+--------[ID 0x0014] Name: GANON----------------------------------------------
+		Action Value:		0x016A
+		Subaction Vals:		0x00000000 00000000 0000026C 00000000
+--------[ID 0x0015] Name: WARIO----------------------------------------------
+		Action Value:		0x014B
+		Subaction Vals:		0x00000000 00000000 0000023D 00000000
+--------[ID 0x0016] Name: METAKNIGHT-----------------------------------------
+		Action Value:		0x0136
+		Subaction Vals:		0x00000040 00000001 0000020C 00000000
+--------[ID 0x0017] Name: PIT------------------------------------------------
+		Action Value:		0x01B6
+		Subaction Vals:		0x00000044 00000002 00000304 00000000
+--------[ID 0x0018] Name: SZEROSUIT------------------------------------------
+		Action Value:		0x01BC
+		Subaction Vals:		0x00000048 00000002 00000316 00000000
+--------[ID 0x0019] Name: PIKMIN---------------------------------------------
+		Action Value:		0x01A5
+		Subaction Vals:		0x0000004C 00000001 000002DE 01000000
+--------[ID 0x001A] Name: LUCAS----------------------------------------------
+		Action Value:		0x016F
+		Subaction Vals:		0x00000050 00000001 00000276 00000000
+--------[ID 0x001B] Name: DIDDY----------------------------------------------
+		Action Value:		0x018C
+		Subaction Vals:		0x00000054 00000001 000002B5 00000000
+--------[ID 0x001D] Name: POKELIZARDON---------------------------------------
+		Action Value:		0x0144
+		Subaction Vals:		0x00000058 00000001 00000227 00000000
+--------[ID 0x001E] Name: POKEZENIGAME---------------------------------------
+		Action Value:		0x0148
+		Subaction Vals:		0x0000005C 00000001 00000233 00000000
+--------[ID 0x001F] Name: POKEFUSHIGISOU-------------------------------------
+		Action Value:		0x0145
+		Subaction Vals:		0x00000060 00000001 0000022D 00000000
+--------[ID 0x0020] Name: DEDEDE---------------------------------------------
+		Action Value:		0x0192
+		Subaction Vals:		0x00000064 00000001 000002C1 00000000
+--------[ID 0x0021] Name: LUCARIO--------------------------------------------
+		Action Value:		0x01AA
+		Subaction Vals:		0x00000068 00000001 000002F0 00000000
+--------[ID 0x0022] Name: IKE------------------------------------------------
+		Action Value:		0x017C
+		Subaction Vals:		0x0000006C 00000001 00000292 00000000
+--------[ID 0x0023] Name: ROBOT----------------------------------------------
+		Action Value:		0x0191
+		Subaction Vals:		0x00000070 00000001 000002BF 00000000
+--------[ID 0x0024] Name: UNRECOGNIZED---------------------------------------
+		Action Value:		0x01A9
+		Subaction Vals:		0x00000074 00000002 000002EA 00000000
+		Transactor Entry:	0x48000001 907F0090
+		Command Entry:		0x00080A01 000207CC
+--------[ID 0x0025] Name: PURIN----------------------------------------------
+		Action Value:		0x0184
+		Subaction Vals:		0x00000000 00000000 000002A2 01000000
+--------[ID 0x0026] Name: MEWTWO---------------------------------------------
+		Action Value:		0x01AA
+		Subaction Vals:		0x00000068 00000001 000002F0 00000000
+		Transactor Entry:	0x48000001 907F0098
+		Command Entry:		0x00D00A01 0002060C
+--------[ID 0x0027] Name: ROY------------------------------------------------
+		Action Value:		0x0180
+		Subaction Vals:		0x00000034 00000001 0000029A 00000000
+		Transactor Entry:	0x48000001 907F009C
+		Command Entry:		0x00080A01 0001FFEC
+--------[ID 0x0028] Name: UNRECOGNIZED---------------------------------------
+		Action Value:		0x01B6
+		Subaction Vals:		0x00000044 00000002 00000304 00000000
+		Transactor Entry:	0x48000001 907F00A0
+		Command Entry:		0x00080A01 0002021C
+--------[ID 0x0029] Name: TOONLINK-------------------------------------------
+		Action Value:		0x01A9
+		Subaction Vals:		0x00000074 00000002 000002EA 00000000
+--------[ID 0x002A] Name: RIDLEY---------------------------------------------
+		Action Value:		0x01AA
+		Subaction Vals:		0x00000068 00000001 000002F0 00000000
+		Transactor Entry:	0x48000001 907F00A8
+		Command Entry:		0x00080A01 0002060C
+--------[ID 0x002C] Name: WOLF-----------------------------------------------
+		Action Value:		0x0143
+		Subaction Vals:		0x00000078 00000002 00000225 00000000
+--------[ID 0x002D] Name: KNUCKLES-------------------------------------------
+		Action Value:		0x01A6
+		Subaction Vals:		0x0000007C 00000001 0000031D 00000000
+		Transactor Entry:	0x48000001 907F00B4
+		Command Entry:		0x00080A01 0002091C
+--------[ID 0x002E] Name: SNAKE----------------------------------------------
+		Action Value:		0x015C
+		Subaction Vals:		0x00000080 00000001 0000025F 01000000
+--------[ID 0x002F] Name: SONIC----------------------------------------------
+		Action Value:		0x0139
+		Subaction Vals:		0x0000007C 00000001 00000211 00000000
+--------[ID 0x0031] Name: WARIOMAN-------------------------------------------
+		Action Value:		0x014B
+		Subaction Vals:		0x00000000 00000000 0000023D 00000000
+--------[ID 0x0040] Name: UNRECOGNIZED---------------------------------------
+		Action Value:		0x01AE
+		Subaction Vals:		0x0000000C 00000001 000002F8 00000000
+		Transactor Entry:	0x48000001 907F0100
+		Command Entry:		0x00080A01 0001FB8C
+--------[ID 0x0056] Name: Shadow---------------------------------------------
+		Action Value:		0x01AA
+		Subaction Vals:		0x00000068 00000001 000002F0 00000000
+		Transactor Entry:	0x48000001 907F0158
+		Command Entry:		0x00080A01 0002060C
+--------[ID 0x006A] Name: UNRECOGNIZED---------------------------------------
+		Action Value:		0x0133
+		Subaction Vals:		0x00000000 00000000 00000206 00000000
+
