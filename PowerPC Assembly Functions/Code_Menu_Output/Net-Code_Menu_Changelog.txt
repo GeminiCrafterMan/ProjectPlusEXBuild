@@ -9,6 +9,7 @@ Adding Characters to Code Menu from "EX_Characters.txt"...
 [ADDED] Shadow (Slot ID = 0x56)
 [CHANGED] Sonic (Slot ID = 0x3F)
 [ADDED] Banjo-Kazooie (Slot ID = 0x40)
+[ADDED] RockManX (Slot ID = 0x41)
 
 Final Character List:
 	Banjo-Kazooie (Slot ID = 0x40)
@@ -44,6 +45,7 @@ Final Character List:
 	Pit (Slot ID = 0x19)
 	R.O.B. (Slot ID = 0x26)
 	Ridley (Slot ID = 0x38)
+	RockManX (Slot ID = 0x41)
 	Roy (Slot ID = 0x32)
 	Samus (Slot ID = 0x03)
 	Shadow (Slot ID = 0x56)

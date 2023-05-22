@@ -4,6 +4,7 @@ Loading Hat Entries...
 [LOADED] "Shadow" (Fighter ID 0x0056, Source ID 0x0021)
 [LOADED] "Sonic" (Fighter ID 0x003F, Source ID 0x0021)
 [LOADED] "Banjo-Kazooie" (Fighter ID 0x0040, Source ID 0x0021)
+[LOADED] "RockManX" (Fighter ID 0x0041, Source ID 0x0021)
 
 Adding Hats...
 "Shadow" ID: 0x0056, Source Character ID: 0x0021 (LUCARIO)
@@ -23,6 +24,13 @@ Adding Hats...
 "Banjo-Kazooie" ID: 0x0040, Source Character ID: 0x0021 (LUCARIO)
 	[WARNING] Provided KBX already contains a hat entry for a character with this ID.
 	If this is unexpected, try using a clean P+Ex KBX file and try again. No hat will be added for this fighter.
+"RockManX" ID: 0x0041, Source Character ID: 0x0021 (LUCARIO)
+	Editing KBX...
+		[SUCCESS] Wrote Hat Action (0x000001AA) to 0x0904.
+		[SUCCESS] Wrote Hat Subaction (0x00000068 00000001 000002F0 00000000) to 0x0410.
+	Editing REL...
+		[SUCCESS] Wrote Hat Transactor (0x48000001 907F0104) to 0x0118 of Section[4].
+		[SUCCESS] Wrote Hat Command (0x0002060C) to 0x0004AF48.
 
 Note: Backed up ".././pf/module/ft_kirby.rel" and overwrote it with the newly edited REL.
 Note: Backed up ".././pf/BrawlEx/KirbyHat.kbx" and overwrote it with the newly edited KBX.
@@ -189,6 +197,11 @@ Hat Summary:
 		Subaction Vals:		0x0000000C 00000001 000002F8 00000000
 		Transactor Entry:	0x48000001 907F0100
 		Command Entry:		0x00080A01 0001FB8C
+--------[ID 0x0041] Name: RockManX-------------------------------------------
+		Action Value:		0x01AA
+		Subaction Vals:		0x00000068 00000001 000002F0 00000000
+		Transactor Entry:	0x48000001 907F0104
+		Command Entry:		0x00080A01 0002060C
 --------[ID 0x0056] Name: Shadow---------------------------------------------
 		Action Value:		0x01AA
 		Subaction Vals:		0x00000068 00000001 000002F0 00000000

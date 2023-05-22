@@ -68,6 +68,7 @@ HOOK @ $80A1A5B0
 	%HatFloatFix(0x56, 0x21)	#Shadow/LUCARIO
 	%HatFloatFix(0x3F, 0x21)	#Sonic/LUCARIO
 	%HatFloatFix(0x40, 0x21)	#Banjo-Kazooie/LUCARIO
+	%HatFloatFix(0x41, 0x21)	#RockManX/LUCARIO
 	mulli r0, r4, 0xDC
 }
 
