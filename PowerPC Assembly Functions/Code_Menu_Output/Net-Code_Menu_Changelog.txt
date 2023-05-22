@@ -1,5 +1,5 @@
 PowerPC Assembly Functions (Code Menu Building Utility v1.0.4)
-Building "data.cmnu" for Post v1.2 Project+ EX (Dolphin)
+Building "dnet.cmnu" for Post v1.2 Project+ EX Netplay (Dolphin)
 Note: This code menu was configured for P+EX builds on v1.2 or later, using the "P+EX" base directory!
 	It will not work for builds using the old "Project+" directory!
 Note: This code menu was configured for use with Dolphin only, and IS NOT COMPATIBLE with consoles!
@@ -59,5 +59,5 @@ Final Character List:
 	Zelda (Slot ID = 0x0E)
 	Zero Suit Samus (Slot ID = 0x04)
 
-Note: Backed up ".././pf/menu3/data.cmnu" and overwrote it with the newly built Code Menu.
-Note: Backed up ".././Source/Project+/CodeMenu.asm" and overwrote it with the newly built ASM.
+Note: Backed up ".././pf/menu3/dnet.cmnu" and overwrote it with the newly built Code Menu.
+Note: Backed up ".././Source/Netplay/Net-CodeMenu.asm" and overwrote it with the newly built ASM.
