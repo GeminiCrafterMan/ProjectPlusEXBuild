@@ -8,8 +8,10 @@ Note: This code menu was configured for use with Dolphin only, and IS NOT COMPAT
 Adding Characters to Code Menu from "EX_Characters.txt"...
 [ADDED] Shadow (Slot ID = 0x56)
 [CHANGED] Sonic (Slot ID = 0x3F)
+[ADDED] Banjo-Kazooie (Slot ID = 0x40)
 
 Final Character List:
+	Banjo-Kazooie (Slot ID = 0x40)
 	Bowser (Slot ID = 0x0C)
 	Captain Falcon (Slot ID = 0x0A)
 	Charizard (Slot ID = 0x1E)

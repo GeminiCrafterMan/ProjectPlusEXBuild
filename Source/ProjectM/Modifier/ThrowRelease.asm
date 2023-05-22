@@ -124,7 +124,7 @@ float[256] |		# 0x80 * 2
 	0.0,		0.0,	| # EXFighter3D
 	0.0,		0.0,	| # EXFighter3E
 	0.0,		0.0,	| # EXFighter3F
-	0,0,	    0,0,	| # EXFighter40
+	0.2257,		8.5516,	| # Banjo-Kazooie
 	0.0,		0.0,	| # EXFighter41
 	0.0,		0.0,	| # EXFighter42
 	0.0,		0.0,	| # EXFighter43
