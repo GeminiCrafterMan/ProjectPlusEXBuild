@@ -14,80 +14,92 @@ Stage Select Screen Table Data
 .BA->$80495D14
 .GOTO->SkipStageTables
 
+
 TABLE_1:
 	byte[21] |
-0x24, | # Peach's Castle
-0x0E, | # Lylat Cruise
-0x0C, | # Yoshi's Island
-0x05, | # Bowser's Castle
-0x21, | # Golden Temple
-0x1E, | # Sky Sanctuary Zone
-0x09, | # Hyrule Castle
-0x14, | # Castle Siege
-0x15, | # Wario Land
-0x18, | # Fountain of Dreams
-0x01, | # Final Destination
-0x04, | # Metal Cavern
-0x23, | # Dream Land
-0x0A, | # Metroid Lab
-0x20, | # Yoshi's Story
-0x1C, | # Green Hill Zone
-0x1A, | # Smashville
-0x00, | # Battlefield
-0x28, | # Pokemon Stadium 2
-0x02, | # Delfino's Secret
-0x16  | # Distant Planet
+0x24,	| # Peach_Castle
+0x0E,	| # Lylat_Cruise
+0x0C,	| # Yoshis_Island
+0x05,	| # Bowser_Castle
+0x21,	| # Golden_Temple
+0x1E,	| # Sky_Sanctuary
+0x09,	| # Hyrule_Castle
+0x14,	| # Castle_Siege
+0x15,	| # Wario_Land
+0x18,	| # Fountain_of_Dreams
+0x01,	| # Final_Destination
+0x04,	| # Metal_Cavern
+0x23,	| # Dream_Land
+0x0A,	| # Metroid_Lab
+0x20,	| # Yoshis_Story
+0x1C,	| # Green_Hill_Zone
+0x1A,	| # Smashville
+0x00,	| # Battlefield
+0x28,	| # Pokemon_Stadium_2
+0x02,	| # Delfino_Secret
+0x16	| # Distant_Planet
+
+
 
 TABLE_2:
 	byte[21] |
-0x12, | # Infinite Glacier
-0x1B, | # Shadow Moses Island
-0x06, | # Kongo Jungle
-0x19, | # Fourside
-0x22, | # Onett
-0x26, | # Big Blue
-0x11, | # Port Town Aero Dive
-0x13, | # Flat Zone 2
-0x03, | # Luigi's Mansion
-0x07, | # Rumble Falls
-0x25, | # Corneria
-0x27, | # Planet Zebes
-0x1F, | # Temple
-0x08, | # Pirate Ship
-0x2B, | # Training Room
-0x10, | # Spear Pillar
-0x0F, | # Saffron City
-0x0D, | # Halberd
-0x0B, | # Frigate Orpheon
-0x17, | # Skyworld
-0x1D  | # PictoChat
+0x12,	| # Infinite_Glacier
+0x1B,	| # Shadow_Moses
+0x06,	| # Kongo_Jungle
+0x19,	| # Fourside
+0x22,	| # Onett
+0x26,	| # Big_Blue
+0x11,	| # Port_Town
+0x13,	| # Flat_Zone
+0x03,	| # Luigi_Mansion
+0x07,	| # Rumble_Falls
+0x25,	| # Corneria
+0x27,	| # Planet_Zebes
+0x1F,	| # Temple
+0x08,	| # Pirate_Ship
+0x2B,	| # Training
+0x10,	| # Spear_Pillar
+0x0F,	| # Saffron_City
+0x0D,	| # Halberd
+0x0B,	| # Frigate_Orpheon
+0x17,	| # Skyworld
+0x1D	| # PictoChat
+
+
 
 TABLE_3:
-	byte[17] |
-0x31, | # Dinosaur Land
-0x2D, | # Mario Circuit
-0x38, | # Mushroom Kingdom
-0x3B, | # Rainbow Cruise
-0x32, | # Oil Drum Alley
-0x33, | # Jungle Japes
-0x2E, | # Clock Town
-0x36, | # Cookie Country
-0x39, | # WarioWare, Inc.
-0x3C, | # Poke Floats
-0x34, | # Bell Tower
-0x35, | # Norfair
-0x2F, | # Hanenbow
-0x37, | # Venus Lighthouse
-0x2C, | # Dracula's Castle
-0x30, | # Dead Line
-0x3A  | # Subspace
+	byte[18] |
+0x31,	| # Dinosaur_Land
+0x2D,	| # Mario_Circuit
+0x38,	| # Mushroom_Kingdom
+0x3B,	| # Rainbow_Cruise
+0x32,	| # Minecart_Madness
+0x33,	| # Jungle_Japes
+0x2E,	| # Clock_Town
+0x36,	| # Cookie_Country
+0x39,	| # WarioWare
+0x3C,	| # Poke_Floats
+0x34,	| # Bell_Tower
+0x35,	| # Norfair
+0x2F,	| # Hanenbow
+0x37,	| # Venus_Lighthouse
+0x2C,	| # Draculas_Castle
+0x30,	| # Dead_Line
+0x3A,	| # Subspace
+0x3D	| # Castle_Bleck
 
-TABLE_4:	# Unused
-TABLE_5:	# Unused
+
+
+TABLE_4:
+
+
+
+TABLE_5:
+
 
 TABLE_STAGES:
 # Table of icon<->stage slot associations
-half[61] |	# Stage Count + 2
+half[62] |	# Stage Count + 2
 | # OLD SLOTS
 0x0101, 0x0202, 0x0303, 0x0404, | # Battlefield, Final Destination, Delfino's Secret, Luigi's Mansion
 0x0505, 0x0606, 0x0707, 0x0808, | # Metal Cavern, Bowser's Castle, Kongo Jungle, Rumble Falls
@@ -105,7 +117,7 @@ half[61] |	# Stage Count + 2
 0x4427, 0x4528, 0x4629, 0x2B34, | # Dead Line, Dinosaur Land, Oil Drum Alley, Jungle Japes
 0x482B, 0x0B0B, 0x4A2D, 0x4B2E, | # Bell Tower, Norfair, Cookie Country, Venus Lighthouse
 0x4C2F, 0x4D30, 0x4E31, 0x4F3D, | # Mushroom Kingdom, WarioWare, Subspace, Rainbow Cruise
-0x503E				| # Poke Floats
+0x503E,	0x0A21	|  # Poke Floats, Castle_Bleck
 
 
 SkipStageTables:
@@ -113,7 +125,7 @@ SkipStageTables:
 
 byte 21 @ $806B929C # Page 1
 byte 21 @ $806B92A4 # Page 2
-byte 17 @ $80496002 # Page 3
+byte 18 @ $80496002 # Page 3
 byte 00 @ $80496003 # Page 4 (Unused)
 byte 00 @ $80496004 # Page 5 (Unused)
-byte 59 @ $800AF673 # Stage Count
+byte 60 @ $800AF673 # Stage Count
